@@ -1,0 +1,11 @@
+import math
+print("claculte the area of triangle")
+a=int(input("enter the first side of triangle=  "))
+b=int(input("enter the second side of triangle=  "))
+c=int(input("enter the third side of triangle=  "))
+#s=float((a+b+c)/2)
+s=((a+b+c)/2)
+#area=float((s*(s-a)*(s-b)*(s-c))**(1/2))
+area=((s*(s-a)*(s-b)*(s-c))**(1/2))
+print("AREA OF TRIANGLE IS :",area)
+print(type(s))
